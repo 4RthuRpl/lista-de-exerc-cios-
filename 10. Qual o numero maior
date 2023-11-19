@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float numero1;
+    float numero2;
+    cin >> numero1;
+    cin >> numero2;
+    if(numero1>numero2){ 
+        cout << numero1;
+    }else{
+        cout << numero2;
+    }
+     return 0;
+}

@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numero;
+    cin >> numero;
+    if(numero < 0){
+        cout << "-1";
+    }else{ 
+        if(numero > 0){
+            cout << "1";
+        }else{
+         cout << "0";
+        }
+       }
+     return 0;
+}

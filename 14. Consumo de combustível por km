@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   
+    float km;
+    float litros;
+    cout << "digite quantos km foram pecorridos";
+    cin >> km;
+    cout << "digite quantos litros foram consumidos";
+    cin >> litros;
+    if(km/litros<8){
+    cout << "Venda o carro!";
+    }else{
+        if (km/litros<14){
+            cout << "Economico!";
+        }else{
+            if (km/litros>12){
+                cout << "Super economico!";
+            }
+        }
+    }
+    return 0;
+}
